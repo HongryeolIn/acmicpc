@@ -4,15 +4,15 @@ using namespace std;
 int main() {
     int a,b,c,result;
     cin >> a >> b >> c;
-    if(a>=b && a>=c){//a°¡ MAX
+    if(a>=b && a>=c){
         if(b>c) result=b;
         else result=c;
     }
-    else if(b>=a &&b>=c){//b°¡ MAX
+    else if(b>=a &&b>=c){
         if(a>c) result=a;
         else result=c;
     }
-    else{//c°¡ MAX
+    else{
         if(a>b) result=a;
         else result=b;
     }
